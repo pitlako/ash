@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/pitlako/ash/releases/download/v1.9.7/digs.zip
+wget https://github.com/pitlako/ash/releases/download/v1.7.9/digs.zip
 unzip digs.zip
 cd /digs
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
